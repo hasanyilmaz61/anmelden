@@ -1,0 +1,30 @@
+*{box-sizing: border-box;}
+html{height: 100%;}
+body{height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(216, 216, 216);
+font-family: Arial, Helvetica, sans-serif;}
+
+#app{display: flex;
+justify-content: center;
+align-items: center;
+width:400px;
+flex-direction: column;
+padding: 10px;
+background-color: rgb(149, 181, 229);}
+
+input{padding: 10px 60px;
+outline: none;
+text-decoration: none;
+margin: 10px;
+border-radius: 5px;
+text-align: center;
+}
+
+button{margin-bottom: 10px;
+    padding: 20px 100px;
+background-color: rgb(197, 79, 0);}
+
+label>input{text-decoration-line: overline;}
